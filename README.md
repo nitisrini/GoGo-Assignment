@@ -45,7 +45,7 @@ Common values like url, category selection, nth result selection and so on are a
 Execute the project through Maven (AmazonTest): 
 -----------------------------------------------
 Command line execution for Windows:
-Unzip the project and goto its directory location having pom.xml file. Open the same location in command prompt.
+Go to directory location having pom.xml file. Open the same location in command prompt.
 Folder location - '\AmazonTest\pom.xml\AmazonTest\'
 Enter the command 'mvn test' to execute the project
 
@@ -74,7 +74,7 @@ Common values like uri, token, and api are available in TestNG xml file(GoGoTest
 Execute the project through Maven (RestAssuredTest): 
 -----------------------------------------------------
 Command line execution for Windows:
-Unzip the project and goto its directory location having pom.xml file. Open the same location in command prompt.
+Go to directory location having pom.xml file. Open the same location in command prompt.
 Folder location - '\RestAssuredTest\pom.xml\'
 Enter the command 'mvn test' to execute the project
 
