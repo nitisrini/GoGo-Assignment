@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="prodNo" value="4"/>
+  <parameter name="search" value="data"/>
+  <parameter name="category" value="Books"/>
+  <parameter name="url" value="https://www.amazon.com"/>
+  <parameter name="ignoreCategory" value="Other Sellers"/>
+  <listeners>
+    <listener class-name="AmazonTest.Utils.Listeners"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="AmazonTestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="AmazonTest.Tests.BookSearchTest">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AmazonTest.Tests.BookSearchTest -->
+    </classes>
+  </test> <!-- AmazonTestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

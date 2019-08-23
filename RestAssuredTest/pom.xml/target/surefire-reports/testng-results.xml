@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15226" started-at="2019-08-23T18:04:33Z" finished-at="2019-08-23T18:04:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15226" started-at="2019-08-23T18:04:33Z" finished-at="2019-08-23T18:04:48Z">
+      <class name="API_Test.Tests.GogoTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:API_Test.Tests.GogoTest@4909b8da]" name="beforeClass" is-config="true" duration-ms="785" started-at="2019-08-23T18:04:33Z" finished-at="2019-08-23T18:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in/public-api/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:API_Test.Tests.GogoTest@4909b8da]" name="createUser" duration-ms="7002" started-at="2019-08-23T18:04:34Z" finished-at="2019-08-23T18:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="getUser(java.lang.String)[pri:1, instance:API_Test.Tests.GogoTest@4909b8da]" name="getUser" duration-ms="2593" started-at="2019-08-23T18:04:41Z" finished-at="2019-08-23T18:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="createExistingUser(java.lang.String, java.lang.String)[pri:2, instance:API_Test.Tests.GogoTest@4909b8da]" name="createExistingUser" duration-ms="1851" started-at="2019-08-23T18:04:43Z" finished-at="2019-08-23T18:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExistingUser -->
+        <test-method status="PASS" signature="createUserInvalidToken(java.lang.String, java.lang.String)[pri:3, instance:API_Test.Tests.GogoTest@4909b8da]" name="createUserInvalidToken" duration-ms="858" started-at="2019-08-23T18:04:45Z" finished-at="2019-08-23T18:04:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserInvalidToken -->
+        <test-method status="PASS" signature="createUserInvalidEmail(java.lang.String, java.lang.String)[pri:4, instance:API_Test.Tests.GogoTest@4909b8da]" name="createUserInvalidEmail" duration-ms="1035" started-at="2019-08-23T18:04:46Z" finished-at="2019-08-23T18:04:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserInvalidEmail -->
+        <test-method status="PASS" signature="createUserNoEmail(java.lang.String, java.lang.String)[pri:5, instance:API_Test.Tests.GogoTest@4909b8da]" name="createUserNoEmail" duration-ms="1067" started-at="2019-08-23T18:04:47Z" finished-at="2019-08-23T18:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserNoEmail -->
+      </class> <!-- API_Test.Tests.GogoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
